@@ -21,7 +21,7 @@ img {
 	height: auto;
 }
 .main {
-	max-width: 1280px;
+	max-width: 1440px;
 	height: auto;
 	margin: 0 auto;
 }
@@ -30,6 +30,8 @@ img {
 	background-size: cover;
 }
 .wrapper {
+	max-width: 1280px;
+	margin: 0 auto;
 	padding: 80px;
 }
 .intro__title {
@@ -38,6 +40,8 @@ img {
 	font-size: 95px;
 	line-height: 40px;
 	color: #ffffff;
+	margin-top: 80px;
+	margin-bottom: 40px;
 }
 .intro__subtitle {
 	max-width: 680px;
@@ -49,7 +53,7 @@ img {
 	margin-bottom: 40px;
 }
 .courses {
-	max-width: 1280px;
+	max-width: 1440px;
 	height: auto;
 	margin: 0 auto;
 	background-color: #f4f5f7;
@@ -140,3 +144,4 @@ img {
 	line-height: 17px;
 	color: #000000;
 }
+
