@@ -66,28 +66,24 @@ img {
 	margin-bottom: 30px;
 	padding-right: 5px;
 }
-/* .box__pic {
-	max-width: 175px;
-} */
+.box__pic {
+	width: 175px;
+}
 .box__pic__cover1 {
 	background: url(/pics/1.png) center no-repeat;
 	background-size: cover;
-	width: 175px;
 }
 .box__pic__cover2 {
 	background: url(/pics/2.png) center no-repeat;
 	background-size: cover;
-	width: 175px;
 }
 .box__pic__cover3 {
 	background: url(/pics/3.png) center no-repeat;
 	background-size: cover;
-	width: 175px;
 }
 .box__pic__cover4 {
 	background: url(/pics/4.png) center no-repeat;
 	background-size: cover;
-	width: 175px;
 }
 .box__content {
 	margin-left: 10px;
@@ -146,7 +142,7 @@ img {
 	transition: 0.5s;
 }
 .box__description {
-	margin-left: 18px;
+	margin-left: 10px;
 }
 .box__minisubtitle {
 	margin-top: 14px;
@@ -157,6 +153,7 @@ img {
 	color: #000000;
 }
 .box__points {
+	max-width: 550px;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 14px;
